@@ -1,5 +1,76 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+/* 質問: 
+    ① 全く同じstyleの場合、一つのclassにまとめていいか？
+    ② heightの指定
+*/
+.unit {
+  background-color: #eff3f4;
+  margin: auto;
+  height: 500px;
+  width: 900px;
+}
 
+.article {
+  background-color: #3274ae;
+  height: 460px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 270px;
+}
+
+.article1 {
+  float: left;
+  margin-left: 20px;
+}
+.article1-text {
+  background-color: #eaf4ff;
+  border: solid;
+  border-color: #022336;
+  border-width: 10px;
+  box-sizing: border-box;
+  font-size: 16px;
+  height: 420px;
+  line-height: 16px;
+  margin: 20px;
+  padding: 20px;
+  width:230px;
+}
+
+.article2 {
+  float: left;
+  margin-left: 20px;
+}
+.article2-text {
+  background-color: #eaf4ff;
+  border: solid;
+  border-color: #022336;
+  border-width: 10px;
+  box-sizing: border-box;
+  font-size: 16px;
+  height: 420px;
+  line-height: 16px;
+  margin: 20px;
+  padding: 20px;
+  width:230px;
+}
+
+.article3 {
+  float: left;
+  margin-left: 20px;
+}
+.article3-text {
+  background-color: #eaf4ff;
+  border: solid;
+  border-color: #022336;
+  border-width: 10px;
+  box-sizing: border-box;
+  font-size: 16px;
+  height: 420px;
+  line-height: 16px;
+  margin: 20px;
+  padding: 20px;
+  width:230px;
+}
 /* 回答はここに書いてね */
