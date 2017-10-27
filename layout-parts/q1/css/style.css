@@ -4,6 +4,7 @@
 /* 質問: 
     ① 全く同じstyleの場合、一つのclassにまとめていいか？
     ② heightの指定
+    ③ 今回の場合のclearfixの意図
 */
 .unit {
   background-color: #eff3f4;
