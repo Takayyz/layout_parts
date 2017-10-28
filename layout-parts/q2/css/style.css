@@ -1,5 +1,31 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.main {
+  background-color: #eff3f4;
+  margin: auto;
+  height: 524px;
+  width: 900px;
+}
 
+.main__article1 {
+  font-size: 18px;
+  line-height: 22px;
+  margin: 0 20px; /*topにもmarginを加えるとmainからはみ出る */
+  padding-top: 20px;
+}
+.pict1 {
+  margin: 0 20px 10px 0;
+  float: left;
+}
+
+.main__article2 {
+  font-size: 18px;
+  line-height: 22px;
+  margin: 0 20px;
+}
+.pict2 {
+  margin: 0 0 10px 20px; /* margin-leftが20px以上空いて見える */
+  float: right;
+}
 /* 回答はここに書いてね */
