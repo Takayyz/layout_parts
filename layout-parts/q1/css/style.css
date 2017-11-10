@@ -2,11 +2,10 @@
 
 /* 回答はここに書いてね */
 /* 質問: 
-    ① 全く同じstyleの場合、一つのclassにまとめていいか？
-    ② heightの指定
-    ③ 今回の場合のclearfixの意図
+    ① heightの指定
+    ② 今回の場合のclearfixの意図
 */
-.unit {
+.container {
   background-color: #eff3f4;
   margin: auto;
   height: 480px;
@@ -19,49 +18,11 @@
   margin-bottom: 20px;
   margin-top: 20px;
   width: 270px;
-}
-
-.article1 {
   float: left;
   margin-left: 20px;
 }
-.article1-text {
-  background-color: #eaf4ff;
-  border: solid;
-  border-color: #022336;
-  border-width: 10px;
-  box-sizing: border-box;
-  font-size: 16px;
-  height: 400px;
-  line-height: 16px;
-  margin: 20px;
-  padding: 20px;
-  width:230px;
-}
 
-.article2 {
-  float: left;
-  margin-left: 20px;
-}
-.article2-text {
-  background-color: #eaf4ff;
-  border: solid;
-  border-color: #022336;
-  border-width: 10px;
-  box-sizing: border-box;
-  font-size: 16px;
-  height: 400px;
-  line-height: 16px;
-  margin: 20px;
-  padding: 20px;
-  width:230px;
-}
-
-.article3 {
-  float: left;
-  margin-left: 20px;
-}
-.article3-text {
+.article__text {
   background-color: #eaf4ff;
   border: solid;
   border-color: #022336;
