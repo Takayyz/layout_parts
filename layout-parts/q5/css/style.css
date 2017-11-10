@@ -2,4 +2,97 @@
 
 /* 回答はここに書いてね */
 
+/* ====================================
+  Q5-1 text-align
+===================================== */
+.box__textalign {
+  background-color: #e6f2ff;
+  /*text-align: center;*/
+  margin: 0 auto;
+  padding: 10px 0;
+  width: 90px;
+}
+
+.box__textalign > p {
+  /*background-color: #e6f2ff;*/
+  /*padding: 10px 0;*/
+  /*width: 90px;*/
+  text-align: center;
+}
+
+/* ====================================
+  Q5-1 margin
+===================================== */
+.box-right {
+  text-align: center;
+}
+
+.box__margin {
+  background-color: #e6f2ff;
+  display: inline-block;
+  padding: 10px 0;
+}
+
+/* ====================================
+  Q5-2 table
+===================================== */
+.q5-2__box-top {
+  display: table;
+}
+
+.q5__vertical__table__inner {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.q5__vertical__table__inner > p {
+  background-color: #fff;
+  display: inline-block;
+  padding: 10px;
+}
+
+/* ====================================
+  Q5-2 flex
+===================================== */
+.flexbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flexbox > p {
+  background-color: #fff;
+  padding: 10px;
+}
+
+/* ====================================
+  Q5-2 position固定
+===================================== */
+.bottom-left {
+  position: relative;
+}
+
+.q5__box__inner--stable {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+/* ====================================
+  Q5-2 position可変
+===================================== */
+.bottom-right {
+  position: relative;
+}
+
+.q5__box__inner--flexible {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
 /* 回答はここに書いてね */
