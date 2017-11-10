@@ -1,5 +1,67 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.trans {
+  margin: 0 auto;
+  width: 500px;
+  height: 333px;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+}
 
+.trans__img {
+  cursor: pointer;
+  transition: all .5s ease;
+}
+
+.trans:hover > .trans__img {
+  transform: scale(1.5,1.5);
+}
+
+.mask {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.8));
+  opacity: 0;
+  position: absolute;
+  top: 333px;
+  left: 0;
+  box-sizing: border-box;
+  color: #fff;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.trans:hover > .mask {
+  opacity: 1;
+  top: 0;
+}
+
+.mask > p {
+  font-size: 16px;
+  line-height: 16px;
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  word-break: break-all;
+}
+
+.loader {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  content: '';
+  border: 10px solid #ecf1f2;
+  box-sizing: border-box;
+  border-top-color: #00bcd4;
+  margin: 0 auto;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
 /* 回答はここに書いてね */
