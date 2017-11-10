@@ -1,5 +1,166 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+input, textarea {
+  -webkit-appearance: none;
+}
 
+.clearfix {
+  display: block;
+  content: '';
+  clear: both;
+}
+
+.container {
+  background-color: #ECF1F2;
+  width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.form-title {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.form-title::before {
+  height: 1px;
+  width: 100%;
+  background-color: #ccc;
+  content: '';
+  position: absolute;
+  display: inline-block;
+  top: 50%;
+  left:0;
+}
+
+.form-title__left {
+  font-size: 24px;
+  font-weight: bold;
+  /*float: left;*/
+  /*margin-right: 10px;*/
+  padding-right: 10px;
+  position: relative;
+  display: inline-block;
+  background-color: #ECF1F2;
+}
+
+/*.form-title__right {
+  float: right;
+  border-color: #ccc;
+}*/
+
+.form-left {
+  float: left;
+  width:300px;
+}
+
+.items {
+  margin-top: 20px;
+}
+
+.items:first-child {
+  margin-top: 0;
+}
+
+.item-title {
+  float: left;
+  width: 100px;
+  text-align: right;
+  line-height: 25px;
+}
+
+.required::after {
+  content: "*";
+  color: #F00;
+  margin-left: 4px;
+}
+
+.item {
+  float: right;
+  width: 180px;
+  border-radius: 3px;
+  border: none;
+  font-size: 12px;
+  padding: 5px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.item-radio {
+  padding: 0;
+}
+
+.radio {
+  cursor: pointer;
+}
+
+.radio-default {
+  display: none;
+}
+
+.radio-parts {
+  font-size: 16px;
+  position: relative;
+  display: inline-block;
+  padding: 3px 3px 3px 20px;
+}
+
+.radio-parts::before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin-top: -8px;
+  background-color: #FFF;
+  height: 14px;
+  width: 14px;
+  border-radius: 50%;
+  content: '';
+  border: 1px solid #ccc;
+}
+
+.radio-default:checked + .radio-parts::after {
+  position: absolute;
+  background-color: #00BCD4;
+  top: 50%;
+  left: 4px;
+  height: 8px;
+  width: 8px;
+  content: '';
+  border-radius: 50%;
+  margin-top: -4px;
+}
+
+.box-btn {
+  text-align: right;
+}
+
+.submit-btn {
+  font-size: 16px;
+  border-radius: 5px;
+  background-color: #00BCD4;
+  color: #FFF;
+  border: none;
+  padding: 0 10px;
+  cursor: pointer;
+  line-height: 26px;
+  outline: none;
+}
+
+.form-right {
+  float: right;
+  width: 380px;
+}
+
+.form-right__txt {
+  width: 100%;
+  height: 203px;
+  padding: 10px;
+  border-radius: 3px;
+  box-sizing: border-box;
+  resize: none;
+  border: none;
+  font-size: 12px;
+  outline: none;
+}
 /* 回答はここに書いてね */
