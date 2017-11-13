@@ -3,6 +3,7 @@
 /* 回答はここに書いてね */
 input, textarea, select, button {
   -webkit-appearance: none;
+  outline: none;
 }
 
 .container {
@@ -22,6 +23,10 @@ input, textarea, select, button {
   border-radius: 5px;
   font-size: 16px;
   padding: 5px;
+}
+
+.container__txt:focus {
+  box-shadow: 0 0 10px #00bcd4;
 }
 
 .container__txt::-webkit-input-placeholder {
