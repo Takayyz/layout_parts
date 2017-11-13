@@ -33,7 +33,7 @@
   height: 50px;
   font-size: 16px;
   text-align: center;
-  line-height: 50px
+  line-height: 50px;
 }
 
 .col-1 {
@@ -46,7 +46,7 @@
 }
 
 .col-3 {
-  width: calc(100%/3);
+  width: calc(100% / 3);
 }
 
 .col-4 {
@@ -58,6 +58,6 @@
 }
 
 .col-6 {
-  width: calc(100%/6);
+  width: calc(100% / 6);
 }
 /* 回答はここに書いてね */
