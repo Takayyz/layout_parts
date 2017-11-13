@@ -5,32 +5,26 @@
 /* ====================================
   Q5-1 text-align
 ===================================== */
-.box__textalign {
+.box__textalign__txt {
   background-color: #e6f2ff;
-  /*text-align: center;*/
-  margin: 0 auto;
-  padding: 10px 0;
   width: 90px;
-}
-
-.box__textalign > p {
-  /*background-color: #e6f2ff;*/
-  /*padding: 10px 0;*/
-  /*width: 90px;*/
-  text-align: center;
+  padding: 10px 0;
+  margin: 0 auto;
+   text-align: center;
 }
 
 /* ====================================
   Q5-1 margin
 ===================================== */
-.box-right {
+.q5-1__margin {
   text-align: center;
 }
 
 .box__margin {
-  background-color: #e6f2ff;
   display: inline-block;
-  padding: 10px 0;
+  background-color: #e6f2ff;
+  padding: 10px;
+  text-align: center;
 }
 
 /* ====================================
@@ -46,7 +40,7 @@
   text-align: center;
 }
 
-.q5__vertical__table__inner > p {
+.vertical__table__txt {
   background-color: #fff;
   display: inline-block;
   padding: 10px;
@@ -61,7 +55,7 @@
   justify-content: center;
 }
 
-.flexbox > p {
+.flexbox__txt {
   background-color: #fff;
   padding: 10px;
 }
