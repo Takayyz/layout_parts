@@ -1,25 +1,29 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-/* 質問: 
-    ① heightの指定
-    ② 今回の場合のclearfixの意図
-*/
+.clearfix::before,
+.clearfix::after {
+  display: block;
+  content: '';
+  clear: both;
+}
+
 .container {
   background-color: #eff3f4;
   margin: auto;
-  height: 480px;
   width: 900px;
+  padding: 20px;
 }
 
 .article {
   background-color: #3274ae;
-  height: 440px;
-  margin-bottom: 20px;
-  margin-top: 20px;
   width: 270px;
   float: left;
   margin-left: 20px;
+}
+
+.article:first-child {
+  margin-left: 0;
 }
 
 .article__text {
@@ -29,7 +33,6 @@
   border-width: 10px;
   box-sizing: border-box;
   font-size: 16px;
-  height: 400px;
   line-height: 16px;
   margin: 20px;
   padding: 20px;
