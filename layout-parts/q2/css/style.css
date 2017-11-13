@@ -1,6 +1,13 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.clearfix::before,
+.clearfix::after {
+  display: block;
+  content: '';
+  clear: both;
+}
+
 .main {
   background-color: #eff3f4;
   margin: auto;
@@ -10,7 +17,7 @@
 .main__article1 {
   font-size: 18px;
   line-height: 22px;
-  margin: 0 20px; /*topにもmarginを加えるとmainからはみ出る */
+  margin: 0 20px;
   padding-top: 20px;
 }
 
@@ -27,7 +34,7 @@
 }
 
 .pict2 {
-  margin: 0 0 10px 20px; /* pictの左側空きすぎ */
+  margin: 0 0 10px 20px;
   float: right;
 }
 /* 回答はここに書いてね */
