@@ -12,13 +12,12 @@
   background-color: #eff3f4;
   margin: auto;
   width: 900px;
+  padding: 20px;
 }
 
 .main__article1 {
   font-size: 18px;
   line-height: 22px;
-  margin: 0 20px;
-  padding-top: 20px;
 }
 
 .pict1 {
@@ -29,8 +28,6 @@
 .main__article2 {
   font-size: 18px;
   line-height: 22px;
-  margin: 0 20px;
-  padding-bottom: 20px;
 }
 
 .pict2 {
