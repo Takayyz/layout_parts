@@ -15,9 +15,8 @@
   width: 0;
   height: 0;
   position: absolute;
-  border-style: solid;
-  border-width: 20px;
-  border-color: #222 transparent transparent transparent;
+  border: 20px solid transparent;
+  border-top-color: #222;
   content: '';
   bottom: -45px;
   left: 30px;
@@ -27,11 +26,10 @@
   width: 0;
   height: 0;
   position: absolute;
-  border-style: solid;
-  border-width: 20px;
-  border-color: #fff transparent transparent transparent;
+  border: 20px solid transparent;
+  border-top-color: #fff;
   content: '';
-  bottom: -40px;
+  bottom: -38px;
   left: 30px;
 }
 
