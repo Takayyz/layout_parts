@@ -5,14 +5,14 @@ input, textarea {
   -webkit-appearance: none;
 }
 
-.clearfix {
+.clearfix::after {
   display: block;
   content: '';
   clear: both;
 }
 
 .container {
-  background-color: #ECF1F2;
+  background-color: #ecf1f2;
   width: 700px;
   margin: 0 auto;
   padding: 20px;
@@ -31,28 +31,21 @@ input, textarea {
   position: absolute;
   display: inline-block;
   top: 50%;
-  left:0;
+  left: 0;
 }
 
 .form-title__left {
   font-size: 24px;
   font-weight: bold;
-  /*float: left;*/
-  /*margin-right: 10px;*/
   padding-right: 10px;
   position: relative;
   display: inline-block;
-  background-color: #ECF1F2;
+  background-color: #ecf1f2;
 }
-
-/*.form-title__right {
-  float: right;
-  border-color: #ccc;
-}*/
 
 .form-left {
   float: left;
-  width:300px;
+  width: 300px;
 }
 
 .items {
@@ -72,7 +65,7 @@ input, textarea {
 
 .required::after {
   content: "*";
-  color: #F00;
+  color: #f00;
   margin-left: 4px;
 }
 
@@ -121,7 +114,7 @@ input, textarea {
 
 .radio-default:checked + .radio-parts::after {
   position: absolute;
-  background-color: #00BCD4;
+  background-color: #00bcd4;
   top: 50%;
   left: 4px;
   height: 8px;
@@ -138,8 +131,8 @@ input, textarea {
 .submit-btn {
   font-size: 16px;
   border-radius: 5px;
-  background-color: #00BCD4;
-  color: #FFF;
+  background-color: #00bcd4;
+  color: #fff;
   border: none;
   padding: 0 10px;
   cursor: pointer;
