@@ -9,6 +9,7 @@ input, textarea, select, button {
   text-align: center;
   font-size: 0;
 }
+
 .container__box {
   display: inline-block;
   font-size: 16px;
@@ -17,18 +18,18 @@ input, textarea, select, button {
 }
 
 .container__txt {
-  border: 1px solid #00BCD4;
+  border: 1px solid #00bcd4;
   border-radius: 5px;
   font-size: 16px;
   padding: 5px;
 }
 
 .container__txt::-webkit-input-placeholder {
-  color: #00BCD4;
+  color: #00bcd4;
 }
 
 .container__textarea {
-  border: 1px solid #00BCD4;
+  border: 1px solid #00bcd4;
   border-radius: 5px;
   font-size: 16px;
   height: 40px;
@@ -57,19 +58,19 @@ input, textarea, select, button {
   border-radius: 50%;
   content: '';
   left: 0;
-  top: 50%; /* fontが可変でも対応する為? */
+  top: 50%;
   margin-top: -8px;
 }
 
 .radio-default:checked + .radio-parts::after {
-  background-color: #00BCD4;
+  background-color: #00bcd4;
   position: absolute;
   height: 8px;
   width: 8px;
   border-radius: 50%;
   content: '';
   left: 4px;
-  top: 50%; /* fontが可変でも対応する為? */
+  top: 50%;
   margin-top: -4px;
 }
 
@@ -103,10 +104,10 @@ input, textarea, select, button {
   height: 5px;
   width: 13px;
   left: 3px;
-  top: 5px; /* answerと見た目が若干違う気がする */
+  top: 5px;
   content: '';
-  border-bottom: 2px solid #00BCD4;
-  border-left: 2px solid #00BCD4;
+  border-bottom: 2px solid #00bcd4;
+  border-left: 2px solid #00bcd4;
   transform: rotate(-40deg);
 }
 
@@ -128,8 +129,8 @@ input, textarea, select, button {
 .select::before {
   position: absolute;
   top: 7px;
-  right:9px;
-  content:'';
+  right: 9px;
+  content: '';
   height: 8px;
   width: 8px;
   border-bottom: 2px solid #ccc;
@@ -139,16 +140,16 @@ input, textarea, select, button {
 
 .container__box__btn {
   cursor: pointer;
-  background:none;
-  border: 1px solid #00BCD4;
+  background: none;
+  border: 1px solid #00bcd4;
   border-radius: 5px;
-  color: #00BCD4;
+  color: #00bcd4;
   font-size: 16px;
   outline: none;
   padding: 5px 10px;
 }
 
 .container__box__btn:active {
-  background-color: #00BCD4;
+  background-color: #00bcd4;
 }
 /* 回答はここに書いてね */
